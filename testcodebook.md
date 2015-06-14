@@ -6,6 +6,7 @@ Below you will find a brief reference to the original study design and its raw d
 Summary of the original study providing the raw data:
 
 The Human Activity Recognition database was built by Smartlab from the recordings of 30 subjects performing activities of daily living while carrying a waist-mounted Android smartphone with embedded inertial sensors. Watch an example here:
+
 [![Activity Recognition Experiment Using Smartphone Sensors](http://img.youtube.com/vi/XOEN9W05_4A/0.jpg)](http://www.youtube.com/watch?v=XOEN9W05_4A) 
 
 The six studied activities are: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing and Laying down. Using the phone's embedded accelerometer and gyroscope, they captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The obtained dataset was randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. See a full description at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones# and in the downloadable dataset's readme and info files. 
@@ -89,7 +90,8 @@ In addition to the selected features, two colums were added to identify the moti
 
 ###3.3 How my tidy.txt looks
 tidy.txt, \t tab separated, 180 rows + 1 header row, 68 columns:
- [1] SubjectID - Chr 1-30 identifying the person performing the activity                 
+
+ [1] SubjectID - Chr 1-30 identifying the person performing the activity
  [2] ActivityName - Chr motion type (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)              
  [3] tBodyAcc-mean()-X          
  [4] tBodyAcc-mean()-Y          
