@@ -86,7 +86,7 @@ I initially selected 86 features containing std or mean wording, using R's grep(
 
 I kept X Y Z elements of the measurements separate in the tidied dataset. Are they really one variable, and therefore should be stored in one column? My reasoning here is that they are separate variables, given that in theory an extremely gracious subject could manage to change either X, Y or Z without changing the other two. I also believe the 3D insight from the data could be ruined by merging X, Y and Z. 
 
-In addition to the selected features, two colums were added to identify the motion type (ActivityName) and the subject being observed (SubjectID). This is then the resulting dataset construction:
+In addition to the selected features, two columns were added to identify the motion type (ActivityName) and the subject being observed (SubjectID). This is then the resulting dataset construction:
 
 ###3.3 How my tidy.txt looks
 tidy.txt, \t tab separated, 180 rows + 1 header row, 68 columns:
